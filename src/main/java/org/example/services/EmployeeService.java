@@ -171,6 +171,7 @@ public class EmployeeService implements EmployeeI {
         } finally {
             s.close();
         }
+
         return new ArrayList<>();
     }
 
